@@ -1,0 +1,167 @@
+<html>
+{% load staticfiles %}
+    <head>
+        <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+        <meta id="Viewport" name="viewport" width="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+
+        <link rel="stylesheet" href="{% static 'css/click.css' %}">
+
+    </head>
+
+    <body>
+        <div align="center">
+            <div align="center" style="display:inline-block; margin:0 auto;">
+                <video id="myVid" controls onplaying="this.controls=false"></video>
+                <br/>
+                <button class="button" id="BadAud" style="width: 30%; display:inline-block;">Bad Audio</button>
+                <button class="button" id="BadVid" style="width: 30%; display:inline-block;">Bad Video</button>
+                <button class="button" id="BadA_V" style="width: 38%; display:inline-block;">Bad Audio and Video</button>
+                <br/><br/>
+                <div>Click Above Buttons - The more you click relates to greater levels of dissatisfaction <br/> or Tap the <b>'B'</b> (Bad Audio), <b>'N'</b> (Bad Video), and <b>'M'</b> (Bad Audio and Video) keys on keyboard.<br/> If any mistakes are made, Refresh page. After the test, click the submit button below.</div>
+                <br/>
+                <input type="radio" name="gender" value="M" checked>Male</input><br/>
+                <input type="radio" name="gender" value="F">Female</input><br/>
+                Age: <input type="number" id="age" min="1" max="99"><br/>
+                <button align="center" class="button" id="SubmBtn" style="width: 38%; display:inline-block;" disabled>Submit</button>
+            </div>
+        </div>
+
+        <div id="results"></div>
+
+        <div id="cover"> 
+            <div align="center" style="width:100%; margin:0 auto;" ><img src="{% static 'pics/loading1.gif' %}" alt="some_text"></div>
+        </div>
+    </body>
+
+    <script type="text/javascript">
+
+        var userrateArr = [];
+        var ratedateArr = [];
+        var keepgoing = true;
+
+        $(document).keyup(function(event){
+            if(event.which == 66) $("#BadAud").click();
+            if(event.which == 78) $("#BadVid").click();
+            if(event.which == 77) $("#BadA_V").click();
+        });
+
+        $("#BadA_V").click(function(){
+            var currentdatetime = new Date();
+            userrateArr.push("A");
+            ratedateArr.push(currentdatetime);
+
+            userrateArr.push("V");
+            ratedateArr.push(currentdatetime);
+        });
+
+        $("#BadAud").click(function(){
+            var currentdatetime = new Date();
+            userrateArr.push("A");
+            ratedateArr.push(currentdatetime);
+        });
+
+        $("#BadVid").click(function(){
+            var currentdatetime = new Date();
+            userrateArr.push("V");
+            ratedateArr.push(currentdatetime);
+        });
+
+        
+
+
+        myVid = document.getElementById("myVid");
+        var video = $("#myVid"), //jquery-wrapped video element
+            mousedown = false;
+
+        video.on('play', function () {
+
+            document.getElementById("SubmBtn").disabled = false;
+            document.getElementById("BadAud").disabled = false;
+            document.getElementById("BadVid").disabled = false;
+            document.getElementById("BadA_V").disabled = false;
+
+            var currentdatetime = new Date();
+
+            userrateArr.push("ST");
+            ratedateArr.push(currentdatetime); //start
+
+            window.setTimeout(wrapup, 30000);
+        }); 
+
+        function wrapup(){
+            keepgoing = false;
+            myVid.pause();
+            document.getElementById("SubmBtn").disabled = false;
+            document.getElementById("BadAud").disabled = true;
+            document.getElementById("BadVid").disabled = true;
+            document.getElementById("BadA_V").disabled = true;
+        }
+
+
+        video.on('pause', function () {
+            if(keepgoing) myVid.play();
+        });
+
+
+        $('#SubmBtn').click(function(){
+            for (var i = 0; i < userrateArr.length; i++) {
+                console.log(userrateArr[i]);
+            }
+
+            var id = '';
+            for(id = ''; id.length < 32;) id += Math.random().toString(36).substr(2, 1);
+
+            $.ajax({
+                type: "POST",
+                url: 'recvData',
+                data: {
+                    csrfmiddlewaretoken: '{{ csrf_token }}',
+                    ratings: JSON.stringify(userrateArr),
+                    daterate: JSON.stringify(ratedateArr),
+                    userid: id,
+                    usergender: $('input[name="gender"]:checked').val(),
+                    userage: $('#age').val(),
+                },
+                success: function(data) {
+                    alert("Successfully completed");
+
+                    document.getElementById("SubmBtn").disabled = true;
+                },
+                error: function(xhr, textStatus, errorThrown) {
+                    alert("Error Occurred");
+
+                    document.getElementById("SubmBtn").disabled = true;
+                }
+            });
+        });
+
+
+
+        $( document ).ready(function() {
+
+            document.getElementById("SubmBtn").disabled = true;
+            document.getElementById("BadAud").disabled = true;
+            document.getElementById("BadVid").disabled = true;
+            document.getElementById("BadA_V").disabled = true;
+
+            var r = new XMLHttpRequest();
+            r.onload = function() {
+                myVid.src = URL.createObjectURL(r.response);
+                //ready
+                $("#cover").fadeOut(100); //after done.
+            };
+            if (myVid.canPlayType('video/mp4;codecs="avc1.42E01E, mp4a.40.2"')) {
+                r.open("GET", "{% static 'vid/calib_vid.mp4' %}");
+            }
+            else {
+                //error
+            }
+            r.responseType = "blob";
+            r.send();
+
+            $("#cover").fadeIn(100);
+            alert("Loading Calibration Video (3MB)");
+        });
+
+    </script>
+</html>

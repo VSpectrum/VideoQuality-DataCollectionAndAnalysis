@@ -1,0 +1,373 @@
+{% load staticfiles %}
+<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+<script src="{% static 'js/highcharts.js' %}"></script>
+<script src="{% static 'js/highcharts-more.js' %}"></script>
+<script src="{% static 'js/exporting.js' %}"></script>
+
+<div id="Data" style="display: block">
+    <div align="center" style="margin:0 auto;">
+        <div align="left" style="margin:0 auto; display: table; font-family: 'Droid Serif', serif; font-size: 17px;">
+            Number of Participants: {{numparticipants}}
+            <br/><br/>
+        </div>
+        <button id='togglestats'>Hide Stats</button>
+        <div id='statstable' style="margin:0 auto; display: table; font-family: 'Droid Serif', serif; font-size: 17px;">
+            The null hypothesis is that the QoE feedback and Video Time do not correlate. The p-value is a number between <br/>
+            zero and one, which represents the probability of the null hypothesis being true, from the given data.
+            <table border="1" >
+                <tr>
+                    <th>Section</th>
+                    <th>Correlation Coefficient</th>
+                    <th>P-Value</th>
+                </tr>
+
+                {% for viddata, rvalue, pvalue in pearsonstats%}
+                <tr>
+                    <td>{{viddata}}</td>
+                    <td>{{rvalue}}</td>
+                    <td>{{pvalue}}</td>
+                </tr>
+                {% endfor %}
+            </table>
+        </div>
+    </div>
+</div>
+
+<div id="stepclickerdata" style="min-width: 310px; height: 400px; width: 80%; margin: 0 auto"></div>
+{% if controldata|length > 0 %}
+<div id="controldata" style="min-width: 310px; height: 400px; width: 80%; margin: 0 auto"></div>
+{% endif %}
+
+{% if feedbackvscontrol|length > 0 %}
+<div id="ControlData" style="display: block">
+    <div align="center" style="margin:0 auto;">
+        <button id='togglecontrolstats'>Hide Stats</button>
+        <div id='controlstatstable' style="margin:0 auto; display: table; font-family: 'Droid Serif', serif; font-size: 17px;">
+            The null hypothesis is that the QoE feedback vs. The Control Data ({{controlunit}}) do not correlate. The p-value is a number<br/> between zero and one, which represents the probability of the null hypothesis being true, from the given data.
+            <table border="1" >
+                <tr>
+                    <th>Regression Slope</th>
+                    <th>Regression Intercept</th>
+                    <th>Correlation Coefficient</th>
+                    <th>P-Value</th>
+                    <th>Standard Error of the Estimate</th>
+                </tr>
+                <tr>
+                {% for statx in feedbackvscontrolstats%}
+                    <td>{{statx}}</td>
+                {% endfor %}
+                </tr>
+                
+            </table>
+        </div>
+    </div>
+</div>
+<div id="feedbackvscontrol" style="min-width: 310px; height: 400px; width: 80%; margin: 0 auto"></div>
+{% endif %}
+
+
+
+<script>
+$('#togglestats').click(function(){
+    $('#statstable').toggle();
+    if($('#statstable').is(":visible"))
+        $('#togglestats').html('Hide Stats');
+    else
+        $('#togglestats').html('Show Stats');
+});
+
+$('#togglecontrolstats').click(function(){
+    $('#controlstatstable').toggle();
+    if($('#controlstatstable').is(":visible"))
+        $('#togglecontrolstats').html('Hide Stats');
+    else
+        $('#togglecontrolstats').html('Show Stats');
+});
+
+$(function () {
+    $('#stepclickerdata').highcharts({
+        chart: {
+            type: 'scatter',
+            zoomType: 'xy'
+        },
+        credits: {
+            enabled: false,
+        },
+        title: {
+            text: 'Scatter Plot of StepClicker Data'
+        },
+        subtitle: {
+            text: ''
+        },
+        xAxis: {
+            min: 1,
+            //max: 68,
+            title: {
+                enabled: true,
+                text: 'Video Time (seconds)'
+            },
+            startOnTick: true,
+            endOnTick: true,
+            showLastLabel: true,
+
+            minorGridLineColor: '#E0E0E0',
+            minorGridLineWidth: 1,
+            minorTickLength: 0,
+            minorTickInterval: 1, //change interval
+
+            plotLines: [
+                {% for secondsin,range in vidmetadata %}               
+                {
+                    color: 'black', // Color value
+                    //dashStyle: 'longdashdot', // Style of the plot line. Default to solid
+                    value: {{secondsin}}, // Value of where the line will appear
+                    width: 2, // Width of the line   
+                    label: {
+                        text: '{{range}}',
+                        rotation: 0,
+                        } 
+                },
+                {% endfor %}
+            ],
+        },
+        yAxis: {
+            title: {
+                text: 'Rating (1 lowest, 5 highest)',
+            },
+            min: 1,
+            max: 5,
+        },
+        legend: {
+            layout: 'vertical',
+            align: 'right',
+            verticalAlign: 'top',
+            x: -60,
+            y: 65,
+            floating: true,
+            backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor) || '#FFFFFF',
+            borderWidth: 1
+        },
+        plotOptions: {
+            scatter: {
+                marker: {
+                    radius: 13,
+                    states: {
+                        hover: {
+                            enabled: true,
+                            lineColor: 'rgb(100,100,100)'
+                        }
+                    }
+                },
+                states: {
+                    hover: {
+                        marker: {
+                            enabled: false
+                        }
+                    }
+                },
+                tooltip: {
+                    headerFormat: '<b>{series.name}</b><br>',
+                    pointFormat: '{point.x}s, {point.y}',
+                }
+            }
+        },
+        series: [
+            {
+                name: 'StepClick',
+                color: 'rgba(223, 83, 83, .5)',
+                data: [
+                    {% for timeval,ratingval in resultsdata %}
+                        [{{timeval}}, {{ratingval}}],
+                    {% endfor %}
+                ]
+            },
+            {
+                name: 'Average',
+                color: 'rgba(23, 283, 83, .5)',
+                data: [
+                    {% for avgtimeval,avgratingval in avgresultsdata %}
+                        [{{avgtimeval}}, {{avgratingval}}],
+                    {% endfor %}
+                ]
+            },
+        ]
+    });
+//--------------------------------------------------------------------------------------------------------
+    // Plot control data
+
+    $('#controldata').highcharts({
+        chart: {
+            zoomType: 'xy'
+        },
+        credits: {
+            enabled: false,
+        },
+        title: {
+            text: 'Line Graph of Control Data ({{controlunit}})'
+        },
+        subtitle: {
+            text: ''
+        },
+        xAxis: {
+            min: 1,
+            title: {
+                enabled: true,
+                text: 'Video Time (seconds)'
+            },
+            startOnTick: true,
+            endOnTick: true,
+            showLastLabel: true,
+
+            minorGridLineColor: '#E0E0E0',
+            minorGridLineWidth: 1,
+            minorTickLength: 0,
+            minorTickInterval: 1, //change interval
+
+            plotLines: [
+                {% for secondsin,range in vidmetadata %}               
+                {
+                    color: 'black', // Color value
+                    //dashStyle: 'longdashdot', // Style of the plot line. Default to solid
+                    value: {{secondsin}}, // Value of where the line will appear
+                    width: 2, // Width of the line   
+                    label: {
+                        text: '{{range}}',
+                        rotation: 0,
+                        } 
+                },
+                {% endfor %}
+            ],
+        },
+        yAxis: {
+            min: 0,
+            title: {
+                text: 'Controlled Variable Value ({{controlunit}}))',
+            },
+        },
+        
+        plotOptions: {
+            line: {
+                marker: {
+                    radius: 5,
+                    states: {
+                        hover: {
+                            enabled: true,
+                            lineColor: 'rgb(100,100,100)'
+                        }
+                    }
+                },
+                states: {
+                    hover: {
+                        marker: {
+                            enabled: false
+                        }
+                    }
+                },
+                tooltip: {
+                    headerFormat: '<b>{series.name}</b><br>',
+                    pointFormat: '{point.x}s, {point.y}{{controlunit}}',
+                }
+            }
+        },
+        series: [
+            {
+                name: 'Controlled Data',
+                color: 'rgba(223, 83, 83, .5)',
+                data: [
+                    {% for controltime,controlval in controldata %}
+                        [{{controltime}}, {{controlval}}],
+                    {% endfor %}
+                ]
+            },
+        ]
+    });
+
+//--------------------------------------------------------------------------------------------------------
+
+    // Plot feedback vs control data
+    $('#feedbackvscontrol').highcharts({
+        chart: {
+            type: 'scatter',
+            zoomType: 'xy'
+        },
+        credits: {
+            enabled: false,
+        },
+        title: {
+            text: 'Scatter Plot of Feedback vs Control Data'
+        },
+        subtitle: {
+            text: ''
+        },
+        xAxis: {
+            min: 1,
+            //max: 68,
+            title: {
+                enabled: true,
+                text: 'Control Data Value, {{controlunit}}'
+            },
+            startOnTick: true,
+            endOnTick: true,
+            showLastLabel: true,
+
+            minorGridLineColor: '#E0E0E0',
+            minorGridLineWidth: 1,
+            minorTickLength: 0,
+            minorTickInterval: 1, //change interval
+
+        },
+        yAxis: {
+            title: {
+                text: 'Feedback Rating (1 lowest, 5 highest)',
+            },
+            min: 1,
+            max: 5,
+        },
+        legend: {
+            layout: 'vertical',
+            align: 'right',
+            verticalAlign: 'top',
+            x: -60,
+            y: 65,
+            floating: true,
+            backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor) || '#FFFFFF',
+            borderWidth: 1
+        },
+        plotOptions: {
+            scatter: {
+                marker: {
+                    radius: 13,
+                    states: {
+                        hover: {
+                            enabled: true,
+                            lineColor: 'rgb(100,100,100)'
+                        }
+                    }
+                },
+                states: {
+                    hover: {
+                        marker: {
+                            enabled: false
+                        }
+                    }
+                },
+                tooltip: {
+                    headerFormat: '<b>{series.name}</b><br>',
+                    pointFormat: '{point.x}{{controlunit}}, {point.y}',
+                }
+            }
+        },
+        series: [
+            {
+                name: 'Feedback Rating',
+                color: 'rgba(223, 83, 83, .5)',
+                data: [
+                    {% for controldata,feedbackrating in feedbackvscontrol %}
+                        [{{controldata}}, {{feedbackrating}}],
+                    {% endfor %}
+                ]
+            },
+        ]
+    });
+});
+</script>

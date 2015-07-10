@@ -1,0 +1,74 @@
+<html>
+	<head>
+	    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+	    <meta id="Viewport" name="viewport" width="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	</head>
+	<body>
+		<div id="UploadData" style="display: block">
+	        <div align="center" style="margin:0 auto;">
+	            <div align="left" style="margin:0 auto; display: table; font-family: 'Droid Serif', serif; font-size: 17px;">
+					<form action="/uploadVideo" method="post" enctype="multipart/form-data">
+						<table>
+							{{form.as_table}}
+						</table>
+							<br/>
+							With the assumption that the video you want assessed is<br/>
+							partitioned with varying qualities in each segment, the<br/>
+							inputs below allow for stating when the different segments begin.<br/>
+							<br/>
+							Specifying when your partitions begin and assigning the  <br/>
+							controlled variables to a partition/segment <br/>
+							(such as data rate range - inputbox: 150-300) allow for <br/>
+							better organization by labelling graphical data. 
+							<br/><br/>
+
+
+						<table id="SegmentData">
+							<tr><th>Partition Time (s)</th><th>Controlled-Data Unit<br/>(e.g. kbps, s, or ms)</th><th>Data Value/Range<br/>(e.g. 250-400)</th></tr>
+							<tr id="RowTemplate">
+								<td id="PartTimeCol"><input type="text" id="PartTime" name="PartTime[]"></input></td><td id="DataUnitCol"><input type="text" id="DataUnit" name="DataUnit[]"></input></td><td id="DataRangeCol"><input type="text" id="DataRange" name="DataRange[]"></input></td><td><input type="button" id="AddRow" value="Add another partition"></input></td>
+							</tr>
+						</table>
+
+						{% csrf_token %}
+						<br/>
+						If the controlled data has been recorded (at a per second interval), <br/>
+						paste the data (separated by line breaks) in the text box below. The<br/>
+						first value in the list indicates data at the first second of the video.<br/>
+						<textarea name="datavals"></textarea>
+						<br/><br/>
+						<input type="submit" name="submit" value="Upload Video"></input><br/>
+						Upon successful upload, you will be redirected to the page that <br/>
+						you would share to other participants for your data-collection.
+					</form>
+				</div>
+	        </div>
+	    </div>
+	</body>
+
+	<script type="text/javascript">
+		var ItemAdditer = 1;
+		$("#AddRow").click(function(e) {
+	    	if( $(this).val() != "Remove")
+	    	{
+	    		if ($(this).parent().parent().children("#PartTimeCol").children("#PartTime").val() != "")
+	    		{
+	    			if ( !isNaN($(this).parent().parent().children("#PartTimeCol").children("#PartTime").val() ))
+				    {
+				    	var rowelement = $(this).parent().parent().clone(true);
+				    	rowelement.children("#PartTimeCol").children("#PartTime").val("");
+				    	/*rowelement.children("#DataUnitCol").children("#DataUnit").val("");*/
+				    	rowelement.children("#DataRangeCol").children("#DataRange").val("");
+		    			$("#SegmentData").append(rowelement.attr('id', 'RowTemplate'+ ItemAdditer++));
+		    			$(this).val("Remove");
+				    }
+				}   
+	    	}
+	    		
+	    	else
+	    		$(this).parent().parent().remove();
+	    });
+
+	</script>
+
+</html>

@@ -1,0 +1,22 @@
+[Wed Jun 10 18:56:22.034885 2015] [:error] [pid 18936] /usr/lib64/python2.7/site-packages/django/template/base.py:290: RemovedInDjango18Warning: 'The `firstof` template tag is changing to escape its arguments; the non-autoescaping version is deprecated. Load it from the `future` tag library to start using the new behavior.
+[Wed Jun 10 18:56:22.037151 2015] [:error] [pid 18936]   token = Token(TOKEN_TEXT, token_string)
+[Wed Jun 10 18:56:22.037179 2015] [:error] [pid 18936] 
+[Wed Jun 10 18:56:22.097907 2015] [:error] [pid 18936] [remote 190.213.19.27:23964] mod_wsgi (pid=18936): Exception occurred processing WSGI script '/var/www/PyDev/OneClick_DataCollect_Calib/DataCollect/DataCollect/wsgi.py'.
+[Wed Jun 10 18:56:22.097970 2015] [:error] [pid 18936] [remote 190.213.19.27:23964] Traceback (most recent call last):
+[Wed Jun 10 18:56:22.097997 2015] [:error] [pid 18936] [remote 190.213.19.27:23964]   File "/usr/lib64/python2.7/site-packages/django/core/handlers/wsgi.py", line 187, in __call__
+[Wed Jun 10 18:56:22.098111 2015] [:error] [pid 18936] [remote 190.213.19.27:23964]     response = http.HttpResponseBadRequest()
+[Wed Jun 10 18:56:22.098130 2015] [:error] [pid 18936] [remote 190.213.19.27:23964]   File "/usr/lib64/python2.7/site-packages/django/core/handlers/base.py", line 199, in get_response
+[Wed Jun 10 18:56:22.098228 2015] [:error] [pid 18936] [remote 190.213.19.27:23964]     e.__class__.__name__)
+[Wed Jun 10 18:56:22.098251 2015] [:error] [pid 18936] [remote 190.213.19.27:23964]   File "/usr/lib64/python2.7/site-packages/django/core/handlers/base.py", line 236, in handle_uncaught_exception
+[Wed Jun 10 18:56:22.098277 2015] [:error] [pid 18936] [remote 190.213.19.27:23964]     
+[Wed Jun 10 18:56:22.098292 2015] [:error] [pid 18936] [remote 190.213.19.27:23964]   File "/usr/lib64/python2.7/site-packages/django/views/debug.py", line 91, in technical_500_response
+[Wed Jun 10 18:56:22.098556 2015] [:error] [pid 18936] [remote 190.213.19.27:23964]     """
+[Wed Jun 10 18:56:22.098576 2015] [:error] [pid 18936] [remote 190.213.19.27:23964]   File "/usr/lib64/python2.7/site-packages/django/views/debug.py", line 349, in get_traceback_html
+[Wed Jun 10 18:56:22.098600 2015] [:error] [pid 18936] [remote 190.213.19.27:23964]     unicode_str = self.exc_value.args[1]
+[Wed Jun 10 18:56:22.098615 2015] [:error] [pid 18936] [remote 190.213.19.27:23964]   File "/usr/lib64/python2.7/site-packages/django/views/debug.py", line 307, in get_traceback_data
+[Wed Jun 10 18:56:22.098635 2015] [:error] [pid 18936] [remote 190.213.19.27:23964]     source_list_func = loader.get_template_sources
+[Wed Jun 10 18:56:22.098649 2015] [:error] [pid 18936] [remote 190.213.19.27:23964]   File "/usr/lib64/python2.7/site-packages/django/views/debug.py", line 457, in get_traceback_frames
+[Wed Jun 10 18:56:22.098669 2015] [:error] [pid 18936] [remote 190.213.19.27:23964]     if isinstance(source[0], six.binary_type):
+[Wed Jun 10 18:56:22.098683 2015] [:error] [pid 18936] [remote 190.213.19.27:23964]   File "/usr/lib64/python2.7/site-packages/django/views/debug.py", line 438, in _get_lines_from_file
+[Wed Jun 10 18:56:22.098704 2015] [:error] [pid 18936] [remote 190.213.19.27:23964]     if loader is not None and hasattr(loader, "get_source"):
+[Wed Jun 10 18:56:22.098733 2015] [:error] [pid 18936] [remote 190.213.19.27:23964] IndexError: list index out of range

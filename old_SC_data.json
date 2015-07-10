@@ -1,0 +1,1871 @@
+[
+{
+    "fields": {
+        "UserGender": "M",
+        "UserID": "83na83c38mmxst09z8nxaaovhibd5vcu",
+        "Page": "SC",
+        "UserAge": 22
+    },
+    "model": "MainDataCollect.userdetails",
+    "pk": 4
+},
+{
+    "fields": {
+        "UserGender": "M",
+        "UserID": "ldvqu07tim5c96gwba97e6fowfh2vnbw",
+        "Page": "SC",
+        "UserAge": 22
+    },
+    "model": "MainDataCollect.userdetails",
+    "pk": 5
+},
+{
+    "fields": {
+        "UserGender": "F",
+        "UserID": "1evm1matj66e2xplis6c21bsck3hxscs",
+        "Page": "SC",
+        "UserAge": 22
+    },
+    "model": "MainDataCollect.userdetails",
+    "pk": 6
+},
+{
+    "fields": {
+        "UserGender": "M",
+        "UserID": "zqok66x6t1bvgo9elashvq4cap3aat0s",
+        "Page": "SC",
+        "UserAge": 22
+    },
+    "model": "MainDataCollect.userdetails",
+    "pk": 7
+},
+{
+    "fields": {
+        "UserGender": "F",
+        "UserID": "g4vsrlfuxxqhd39bdlzre5xsnrjgocnw",
+        "Page": "SC",
+        "UserAge": 28
+    },
+    "model": "MainDataCollect.userdetails",
+    "pk": 8
+},
+{
+    "fields": {
+        "UserGender": "M",
+        "UserID": "9f9hbi00cnq0c3kfubaozwgvoptxsxmd",
+        "Page": "SC",
+        "UserAge": 27
+    },
+    "model": "MainDataCollect.userdetails",
+    "pk": 9
+},
+{
+    "fields": {
+        "UserGender": "F",
+        "UserID": "p3my57s9thd8p6k5ven13304xmhp9smp",
+        "Page": "SC",
+        "UserAge": 25
+    },
+    "model": "MainDataCollect.userdetails",
+    "pk": 10
+},
+{
+    "fields": {
+        "UserGender": "F",
+        "UserID": "2m6y6a63eyy6s7sh566crrr4mz2lb0y8",
+        "Page": "SC",
+        "UserAge": 26
+    },
+    "model": "MainDataCollect.userdetails",
+    "pk": 11
+},
+{
+    "fields": {
+        "UserGender": "F",
+        "UserID": "94xxnppffutdaztgos3frw5g2v7quewh",
+        "Page": "SC",
+        "UserAge": 26
+    },
+    "model": "MainDataCollect.userdetails",
+    "pk": 12
+},
+{
+    "fields": {
+        "UserGender": "F",
+        "UserID": "52j9g1rbcywd8y7wb3ubuu05rcv2o48a",
+        "Page": "SC",
+        "UserAge": 19
+    },
+    "model": "MainDataCollect.userdetails",
+    "pk": 13
+},
+{
+    "fields": {
+        "UserGender": "M",
+        "UserID": "eestjdo5v0g7nrpo40tmi4arvch0osnd",
+        "Page": "SC",
+        "UserAge": 32
+    },
+    "model": "MainDataCollect.userdetails",
+    "pk": 14
+},
+{
+    "fields": {
+        "UserGender": "M",
+        "UserID": "09ys45vq2vf4sye4162m5qw4kjxw8nk9",
+        "Page": "SC",
+        "UserAge": 22
+    },
+    "model": "MainDataCollect.userdetails",
+    "pk": 15
+},
+{
+    "fields": {
+        "UserGender": "M",
+        "UserID": "fqtxbdos7hf4pvmvabc68c7axmypjgv9",
+        "Page": "SC",
+        "UserAge": 20
+    },
+    "model": "MainDataCollect.userdetails",
+    "pk": 16
+},
+{
+    "fields": {
+        "UserGender": "M",
+        "UserID": "lq2v3t54zs0iwcaaes5olkzwn9hcryrv",
+        "Page": "SC",
+        "UserAge": 26
+    },
+    "model": "MainDataCollect.userdetails",
+    "pk": 17
+},
+{
+    "fields": {
+        "UserGender": "M",
+        "UserID": "51geo6nx8mg28sl698zc6dhd0fu0tfmc",
+        "Page": "SC",
+        "UserAge": 27
+    },
+    "model": "MainDataCollect.userdetails",
+    "pk": 19
+},
+{
+    "fields": {
+        "UserGender": "M",
+        "UserID": "70qcpci6rresd4h105gyd4l5rpe77023",
+        "Page": "SC",
+        "UserAge": 22
+    },
+    "model": "MainDataCollect.userdetails",
+    "pk": 20
+},
+{
+    "fields": {
+        "UserGender": "F",
+        "UserID": "d8wviirbaw9yspsl643t0dgyxonwtj5t",
+        "Page": "SC",
+        "UserAge": 23
+    },
+    "model": "MainDataCollect.userdetails",
+    "pk": 21
+},
+{
+    "fields": {
+        "UserGender": "F",
+        "UserID": "fvflv3xo4lfo31hyw0zhevfs1vpcpbds",
+        "Page": "SC",
+        "UserAge": 26
+    },
+    "model": "MainDataCollect.userdetails",
+    "pk": 22
+},
+{
+    "fields": {
+        "UserGender": "F",
+        "UserID": "ua4qseqn0hrzlkja1rgmt0sx32l47af1",
+        "Page": "SC",
+        "UserAge": 34
+    },
+    "model": "MainDataCollect.userdetails",
+    "pk": 23
+},
+{
+    "fields": {
+        "UserGender": "F",
+        "UserID": "q12x4y3dfuou4g6zy998b2xzvlkd2ysl",
+        "Page": "SC",
+        "UserAge": 21
+    },
+    "model": "MainDataCollect.userdetails",
+    "pk": 24
+},
+{
+    "fields": {
+        "UserGender": "F",
+        "UserID": "ka8x3en5xe5nab7yufgu2685nvdpooo1",
+        "Page": "SC",
+        "UserAge": 29
+    },
+    "model": "MainDataCollect.userdetails",
+    "pk": 26
+},
+{
+    "fields": {
+        "UserGender": "M",
+        "UserID": "pi4bvb7ecvom3vu0e7ym1t549hjilbrt",
+        "Page": "SC",
+        "UserAge": 20
+    },
+    "model": "MainDataCollect.userdetails",
+    "pk": 27
+},
+{
+    "fields": {
+        "UserGender": "M",
+        "UserID": "cb2hd8xr4lfgha8lkbm15jbbfmxaj45i",
+        "Page": "SC",
+        "UserAge": 24
+    },
+    "model": "MainDataCollect.userdetails",
+    "pk": 28
+},
+{
+    "fields": {
+        "UserGender": "F",
+        "UserID": "o9fmwlrgibuhozn2lf5l65kokvo11q8s",
+        "Page": "SC",
+        "UserAge": 29
+    },
+    "model": "MainDataCollect.userdetails",
+    "pk": 29
+},
+{
+    "fields": {
+        "Date": "2015-02-19T10:41:00.442Z",
+        "UserID": 5,
+        "RatingType": 0
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 30
+},
+{
+    "fields": {
+        "Date": "2015-02-19T10:41:08.335Z",
+        "UserID": 5,
+        "RatingType": 4
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 31
+},
+{
+    "fields": {
+        "Date": "2015-02-19T10:41:34.630Z",
+        "UserID": 5,
+        "RatingType": 3
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 32
+},
+{
+    "fields": {
+        "Date": "2015-02-19T10:41:51.862Z",
+        "UserID": 5,
+        "RatingType": 3
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 33
+},
+{
+    "fields": {
+        "Date": "2015-02-19T10:42:02.553Z",
+        "UserID": 5,
+        "RatingType": 2
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 34
+},
+{
+    "fields": {
+        "Date": "2015-02-19T10:42:03.468Z",
+        "UserID": 5,
+        "RatingType": 1
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 35
+},
+{
+    "fields": {
+        "Date": "2015-02-19T14:38:23.814Z",
+        "UserID": 6,
+        "RatingType": 0
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 36
+},
+{
+    "fields": {
+        "Date": "2015-02-19T14:38:40.837Z",
+        "UserID": 6,
+        "RatingType": 5
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 37
+},
+{
+    "fields": {
+        "Date": "2015-02-19T14:38:45.987Z",
+        "UserID": 6,
+        "RatingType": 4
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 38
+},
+{
+    "fields": {
+        "Date": "2015-02-19T14:38:51.380Z",
+        "UserID": 6,
+        "RatingType": 3
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 39
+},
+{
+    "fields": {
+        "Date": "2015-02-19T14:39:02.328Z",
+        "UserID": 6,
+        "RatingType": 2
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 40
+},
+{
+    "fields": {
+        "Date": "2015-02-19T14:39:13.755Z",
+        "UserID": 6,
+        "RatingType": 2
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 41
+},
+{
+    "fields": {
+        "Date": "2015-02-19T14:39:23.823Z",
+        "UserID": 6,
+        "RatingType": 1
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 42
+},
+{
+    "fields": {
+        "Date": "2015-02-19T14:39:23.993Z",
+        "UserID": 6,
+        "RatingType": 1
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 43
+},
+{
+    "fields": {
+        "Date": "2015-02-19T15:43:35.730Z",
+        "UserID": 7,
+        "RatingType": 0
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 44
+},
+{
+    "fields": {
+        "Date": "2015-02-19T15:43:49.882Z",
+        "UserID": 7,
+        "RatingType": 1
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 45
+},
+{
+    "fields": {
+        "Date": "2015-02-19T15:44:03.384Z",
+        "UserID": 7,
+        "RatingType": 3
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 46
+},
+{
+    "fields": {
+        "Date": "2015-02-19T15:44:10.567Z",
+        "UserID": 7,
+        "RatingType": 1
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 47
+},
+{
+    "fields": {
+        "Date": "2015-02-19T15:44:21.801Z",
+        "UserID": 7,
+        "RatingType": 1
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 48
+},
+{
+    "fields": {
+        "Date": "2015-02-19T15:44:34.076Z",
+        "UserID": 7,
+        "RatingType": 3
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 49
+},
+{
+    "fields": {
+        "Date": "2015-02-19T15:44:36.344Z",
+        "UserID": 7,
+        "RatingType": 1
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 50
+},
+{
+    "fields": {
+        "Date": "2015-02-19T15:44:36.572Z",
+        "UserID": 7,
+        "RatingType": 1
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 51
+},
+{
+    "fields": {
+        "Date": "2015-02-19T15:44:36.770Z",
+        "UserID": 7,
+        "RatingType": 1
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 52
+},
+{
+    "fields": {
+        "Date": "2015-02-19T15:44:36.947Z",
+        "UserID": 7,
+        "RatingType": 1
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 53
+},
+{
+    "fields": {
+        "Date": "2015-02-19T16:46:07.987Z",
+        "UserID": 8,
+        "RatingType": 0
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 54
+},
+{
+    "fields": {
+        "Date": "2015-02-19T16:46:17.287Z",
+        "UserID": 8,
+        "RatingType": 4
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 55
+},
+{
+    "fields": {
+        "Date": "2015-02-19T16:46:18.241Z",
+        "UserID": 8,
+        "RatingType": 4
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 56
+},
+{
+    "fields": {
+        "Date": "2015-02-19T16:46:26.395Z",
+        "UserID": 8,
+        "RatingType": 3
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 57
+},
+{
+    "fields": {
+        "Date": "2015-02-19T16:46:27.054Z",
+        "UserID": 8,
+        "RatingType": 3
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 58
+},
+{
+    "fields": {
+        "Date": "2015-02-19T16:46:27.805Z",
+        "UserID": 8,
+        "RatingType": 3
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 59
+},
+{
+    "fields": {
+        "Date": "2015-02-19T16:46:37.439Z",
+        "UserID": 8,
+        "RatingType": 3
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 60
+},
+{
+    "fields": {
+        "Date": "2015-02-19T16:46:38.430Z",
+        "UserID": 8,
+        "RatingType": 3
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 61
+},
+{
+    "fields": {
+        "Date": "2015-02-19T16:46:39.491Z",
+        "UserID": 8,
+        "RatingType": 2
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 62
+},
+{
+    "fields": {
+        "Date": "2015-02-19T16:46:40.561Z",
+        "UserID": 8,
+        "RatingType": 2
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 63
+},
+{
+    "fields": {
+        "Date": "2015-02-19T16:46:42.305Z",
+        "UserID": 8,
+        "RatingType": 2
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 64
+},
+{
+    "fields": {
+        "Date": "2015-02-19T16:46:43.135Z",
+        "UserID": 8,
+        "RatingType": 1
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 65
+},
+{
+    "fields": {
+        "Date": "2015-02-19T16:46:48.712Z",
+        "UserID": 8,
+        "RatingType": 2
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 66
+},
+{
+    "fields": {
+        "Date": "2015-02-19T16:46:50.780Z",
+        "UserID": 8,
+        "RatingType": 3
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 67
+},
+{
+    "fields": {
+        "Date": "2015-02-19T16:46:59.737Z",
+        "UserID": 8,
+        "RatingType": 4
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 68
+},
+{
+    "fields": {
+        "Date": "2015-02-19T16:47:04.361Z",
+        "UserID": 8,
+        "RatingType": 5
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 69
+},
+{
+    "fields": {
+        "Date": "2015-02-19T16:47:08.641Z",
+        "UserID": 8,
+        "RatingType": 1
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 70
+},
+{
+    "fields": {
+        "Date": "2015-02-19T16:47:09.757Z",
+        "UserID": 8,
+        "RatingType": 1
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 71
+},
+{
+    "fields": {
+        "Date": "2015-02-19T16:47:10.593Z",
+        "UserID": 8,
+        "RatingType": 1
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 72
+},
+{
+    "fields": {
+        "Date": "2015-02-19T16:47:11.347Z",
+        "UserID": 8,
+        "RatingType": 1
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 73
+},
+{
+    "fields": {
+        "Date": "2015-02-19T16:47:12.347Z",
+        "UserID": 8,
+        "RatingType": 1
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 74
+},
+{
+    "fields": {
+        "Date": "2015-02-19T16:47:13.349Z",
+        "UserID": 8,
+        "RatingType": 1
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 75
+},
+{
+    "fields": {
+        "Date": "2015-02-19T16:47:14.103Z",
+        "UserID": 8,
+        "RatingType": 1
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 76
+},
+{
+    "fields": {
+        "Date": "2015-02-19T16:47:14.825Z",
+        "UserID": 8,
+        "RatingType": 1
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 77
+},
+{
+    "fields": {
+        "Date": "2015-02-19T16:47:15.628Z",
+        "UserID": 8,
+        "RatingType": 1
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 78
+},
+{
+    "fields": {
+        "Date": "2015-02-19T16:56:51.930Z",
+        "UserID": 9,
+        "RatingType": 0
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 79
+},
+{
+    "fields": {
+        "Date": "2015-02-19T16:57:06.642Z",
+        "UserID": 9,
+        "RatingType": 4
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 80
+},
+{
+    "fields": {
+        "Date": "2015-02-19T16:57:19.331Z",
+        "UserID": 9,
+        "RatingType": 4
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 81
+},
+{
+    "fields": {
+        "Date": "2015-02-19T16:57:28.607Z",
+        "UserID": 9,
+        "RatingType": 3
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 82
+},
+{
+    "fields": {
+        "Date": "2015-02-19T16:57:41.169Z",
+        "UserID": 9,
+        "RatingType": 3
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 83
+},
+{
+    "fields": {
+        "Date": "2015-02-19T16:57:51.464Z",
+        "UserID": 9,
+        "RatingType": 2
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 84
+},
+{
+    "fields": {
+        "Date": "2015-02-19T16:57:55.839Z",
+        "UserID": 9,
+        "RatingType": 1
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 85
+},
+{
+    "fields": {
+        "Date": "2015-02-19T16:59:11.317Z",
+        "UserID": 10,
+        "RatingType": 0
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 86
+},
+{
+    "fields": {
+        "Date": "2015-02-19T16:59:30.660Z",
+        "UserID": 10,
+        "RatingType": 4
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 87
+},
+{
+    "fields": {
+        "Date": "2015-02-19T16:59:45.165Z",
+        "UserID": 10,
+        "RatingType": 3
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 88
+},
+{
+    "fields": {
+        "Date": "2015-02-19T16:59:53.325Z",
+        "UserID": 10,
+        "RatingType": 2
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 89
+},
+{
+    "fields": {
+        "Date": "2015-02-19T17:00:16.385Z",
+        "UserID": 10,
+        "RatingType": 2
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 90
+},
+{
+    "fields": {
+        "Date": "2015-02-19T17:20:45.367Z",
+        "UserID": 11,
+        "RatingType": 0
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 91
+},
+{
+    "fields": {
+        "Date": "2015-02-19T17:21:05.829Z",
+        "UserID": 11,
+        "RatingType": 4
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 92
+},
+{
+    "fields": {
+        "Date": "2015-02-19T17:21:22.139Z",
+        "UserID": 11,
+        "RatingType": 3
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 93
+},
+{
+    "fields": {
+        "Date": "2015-02-19T17:21:46.657Z",
+        "UserID": 11,
+        "RatingType": 2
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 94
+},
+{
+    "fields": {
+        "Date": "2015-02-19T17:21:52.934Z",
+        "UserID": 11,
+        "RatingType": 0
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 95
+},
+{
+    "fields": {
+        "Date": "2015-02-19T17:21:52.962Z",
+        "UserID": 11,
+        "RatingType": 2
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 96
+},
+{
+    "fields": {
+        "Date": "2015-02-19T17:20:45.367Z",
+        "UserID": 12,
+        "RatingType": 0
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 97
+},
+{
+    "fields": {
+        "Date": "2015-02-19T17:21:05.829Z",
+        "UserID": 12,
+        "RatingType": 4
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 98
+},
+{
+    "fields": {
+        "Date": "2015-02-19T17:21:22.139Z",
+        "UserID": 12,
+        "RatingType": 3
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 99
+},
+{
+    "fields": {
+        "Date": "2015-02-19T17:21:46.657Z",
+        "UserID": 12,
+        "RatingType": 2
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 100
+},
+{
+    "fields": {
+        "Date": "2015-02-19T17:21:52.934Z",
+        "UserID": 12,
+        "RatingType": 0
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 101
+},
+{
+    "fields": {
+        "Date": "2015-02-19T17:21:52.962Z",
+        "UserID": 12,
+        "RatingType": 2
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 102
+},
+{
+    "fields": {
+        "Date": "2015-02-19T17:23:13.377Z",
+        "UserID": 13,
+        "RatingType": 0
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 103
+},
+{
+    "fields": {
+        "Date": "2015-02-19T17:23:31.801Z",
+        "UserID": 13,
+        "RatingType": 3
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 104
+},
+{
+    "fields": {
+        "Date": "2015-02-19T17:23:43.436Z",
+        "UserID": 13,
+        "RatingType": 2
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 105
+},
+{
+    "fields": {
+        "Date": "2015-02-19T17:23:53.302Z",
+        "UserID": 13,
+        "RatingType": 2
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 106
+},
+{
+    "fields": {
+        "Date": "2015-02-19T17:24:06.250Z",
+        "UserID": 13,
+        "RatingType": 3
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 107
+},
+{
+    "fields": {
+        "Date": "2015-02-19T17:24:14.753Z",
+        "UserID": 13,
+        "RatingType": 1
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 108
+},
+{
+    "fields": {
+        "Date": "2015-02-19T17:24:17.239Z",
+        "UserID": 13,
+        "RatingType": 1
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 109
+},
+{
+    "fields": {
+        "Date": "2015-02-19T17:24:20.492Z",
+        "UserID": 13,
+        "RatingType": 1
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 110
+},
+{
+    "fields": {
+        "Date": "2015-02-19T17:35:36.701Z",
+        "UserID": 14,
+        "RatingType": 0
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 111
+},
+{
+    "fields": {
+        "Date": "2015-02-19T17:35:50.354Z",
+        "UserID": 14,
+        "RatingType": 4
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 112
+},
+{
+    "fields": {
+        "Date": "2015-02-19T17:35:52.840Z",
+        "UserID": 14,
+        "RatingType": 3
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 113
+},
+{
+    "fields": {
+        "Date": "2015-02-19T17:36:07.116Z",
+        "UserID": 14,
+        "RatingType": 3
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 114
+},
+{
+    "fields": {
+        "Date": "2015-02-19T17:36:11.110Z",
+        "UserID": 14,
+        "RatingType": 2
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 115
+},
+{
+    "fields": {
+        "Date": "2015-02-19T17:36:24.758Z",
+        "UserID": 14,
+        "RatingType": 4
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 116
+},
+{
+    "fields": {
+        "Date": "2015-02-19T17:36:33.115Z",
+        "UserID": 14,
+        "RatingType": 2
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 117
+},
+{
+    "fields": {
+        "Date": "2015-02-19T17:36:36.535Z",
+        "UserID": 14,
+        "RatingType": 2
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 118
+},
+{
+    "fields": {
+        "Date": "2015-02-19T17:36:38.492Z",
+        "UserID": 14,
+        "RatingType": 2
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 119
+},
+{
+    "fields": {
+        "Date": "2015-02-19T17:36:39.764Z",
+        "UserID": 14,
+        "RatingType": 1
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 120
+},
+{
+    "fields": {
+        "Date": "2015-02-19T17:36:41.035Z",
+        "UserID": 14,
+        "RatingType": 1
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 121
+},
+{
+    "fields": {
+        "Date": "2015-02-19T17:36:42.396Z",
+        "UserID": 14,
+        "RatingType": 1
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 122
+},
+{
+    "fields": {
+        "Date": "2015-02-19T17:36:43.915Z",
+        "UserID": 14,
+        "RatingType": 1
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 123
+},
+{
+    "fields": {
+        "Date": "2015-02-19T17:36:09.871Z",
+        "UserID": 15,
+        "RatingType": 0
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 124
+},
+{
+    "fields": {
+        "Date": "2015-02-19T17:36:17.817Z",
+        "UserID": 15,
+        "RatingType": 4
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 125
+},
+{
+    "fields": {
+        "Date": "2015-02-19T17:36:26.395Z",
+        "UserID": 15,
+        "RatingType": 3
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 126
+},
+{
+    "fields": {
+        "Date": "2015-02-19T17:36:43.579Z",
+        "UserID": 15,
+        "RatingType": 3
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 127
+},
+{
+    "fields": {
+        "Date": "2015-02-19T17:36:57.138Z",
+        "UserID": 15,
+        "RatingType": 4
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 128
+},
+{
+    "fields": {
+        "Date": "2015-02-19T17:37:09.106Z",
+        "UserID": 15,
+        "RatingType": 4
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 129
+},
+{
+    "fields": {
+        "Date": "2015-02-19T17:37:11.131Z",
+        "UserID": 15,
+        "RatingType": 1
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 130
+},
+{
+    "fields": {
+        "Date": "2015-02-19T17:37:13.269Z",
+        "UserID": 15,
+        "RatingType": 1
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 131
+},
+{
+    "fields": {
+        "Date": "2015-02-19T17:43:08.449Z",
+        "UserID": 16,
+        "RatingType": 0
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 132
+},
+{
+    "fields": {
+        "Date": "2015-02-19T17:43:36.819Z",
+        "UserID": 16,
+        "RatingType": 4
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 133
+},
+{
+    "fields": {
+        "Date": "2015-02-19T17:43:52.625Z",
+        "UserID": 16,
+        "RatingType": 4
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 134
+},
+{
+    "fields": {
+        "Date": "2015-02-19T17:44:00.955Z",
+        "UserID": 16,
+        "RatingType": 3
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 135
+},
+{
+    "fields": {
+        "Date": "2015-02-19T17:44:09.247Z",
+        "UserID": 16,
+        "RatingType": 2
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 136
+},
+{
+    "fields": {
+        "Date": "2015-02-19T17:43:56.884Z",
+        "UserID": 17,
+        "RatingType": 0
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 137
+},
+{
+    "fields": {
+        "Date": "2015-02-19T17:44:40.610Z",
+        "UserID": 17,
+        "RatingType": 3
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 138
+},
+{
+    "fields": {
+        "Date": "2015-02-19T19:27:41.889Z",
+        "UserID": 19,
+        "RatingType": 0
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 143
+},
+{
+    "fields": {
+        "Date": "2015-02-19T19:28:34.968Z",
+        "UserID": 19,
+        "RatingType": 4
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 144
+},
+{
+    "fields": {
+        "Date": "2015-02-19T19:28:42.631Z",
+        "UserID": 19,
+        "RatingType": 4
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 145
+},
+{
+    "fields": {
+        "Date": "2015-02-19T20:25:26.465Z",
+        "UserID": 20,
+        "RatingType": 0
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 146
+},
+{
+    "fields": {
+        "Date": "2015-02-19T20:25:39.424Z",
+        "UserID": 20,
+        "RatingType": 3
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 147
+},
+{
+    "fields": {
+        "Date": "2015-02-19T20:25:50.582Z",
+        "UserID": 20,
+        "RatingType": 3
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 148
+},
+{
+    "fields": {
+        "Date": "2015-02-19T20:25:55.350Z",
+        "UserID": 20,
+        "RatingType": 4
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 149
+},
+{
+    "fields": {
+        "Date": "2015-02-19T20:26:10.999Z",
+        "UserID": 20,
+        "RatingType": 3
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 150
+},
+{
+    "fields": {
+        "Date": "2015-02-19T20:26:23.398Z",
+        "UserID": 20,
+        "RatingType": 4
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 151
+},
+{
+    "fields": {
+        "Date": "2015-02-19T20:26:28.262Z",
+        "UserID": 20,
+        "RatingType": 2
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 152
+},
+{
+    "fields": {
+        "Date": "2015-02-19T21:12:29.799Z",
+        "UserID": 21,
+        "RatingType": 0
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 153
+},
+{
+    "fields": {
+        "Date": "2015-02-19T21:12:45.149Z",
+        "UserID": 21,
+        "RatingType": 4
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 154
+},
+{
+    "fields": {
+        "Date": "2015-02-19T21:12:51.748Z",
+        "UserID": 21,
+        "RatingType": 4
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 155
+},
+{
+    "fields": {
+        "Date": "2015-02-19T21:12:58.420Z",
+        "UserID": 21,
+        "RatingType": 4
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 156
+},
+{
+    "fields": {
+        "Date": "2015-02-19T21:13:05.299Z",
+        "UserID": 21,
+        "RatingType": 2
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 157
+},
+{
+    "fields": {
+        "Date": "2015-02-19T21:13:16.140Z",
+        "UserID": 21,
+        "RatingType": 2
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 158
+},
+{
+    "fields": {
+        "Date": "2015-02-19T21:13:18.572Z",
+        "UserID": 21,
+        "RatingType": 2
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 159
+},
+{
+    "fields": {
+        "Date": "2015-02-19T21:13:32.187Z",
+        "UserID": 21,
+        "RatingType": 1
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 160
+},
+{
+    "fields": {
+        "Date": "2015-02-19T21:23:52.003Z",
+        "UserID": 22,
+        "RatingType": 0
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 161
+},
+{
+    "fields": {
+        "Date": "2015-02-19T21:24:00.131Z",
+        "UserID": 22,
+        "RatingType": 4
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 162
+},
+{
+    "fields": {
+        "Date": "2015-02-19T21:24:13.098Z",
+        "UserID": 22,
+        "RatingType": 4
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 163
+},
+{
+    "fields": {
+        "Date": "2015-02-19T21:24:21.651Z",
+        "UserID": 22,
+        "RatingType": 3
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 164
+},
+{
+    "fields": {
+        "Date": "2015-02-19T21:24:35.643Z",
+        "UserID": 22,
+        "RatingType": 4
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 165
+},
+{
+    "fields": {
+        "Date": "2015-02-19T21:24:47.940Z",
+        "UserID": 22,
+        "RatingType": 4
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 166
+},
+{
+    "fields": {
+        "Date": "2015-02-19T21:24:55.796Z",
+        "UserID": 22,
+        "RatingType": 1
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 167
+},
+{
+    "fields": {
+        "Date": "2015-02-19T22:23:30.970Z",
+        "UserID": 23,
+        "RatingType": 0
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 168
+},
+{
+    "fields": {
+        "Date": "2015-02-19T22:23:45.007Z",
+        "UserID": 23,
+        "RatingType": 5
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 169
+},
+{
+    "fields": {
+        "Date": "2015-02-19T22:23:55.717Z",
+        "UserID": 23,
+        "RatingType": 5
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 170
+},
+{
+    "fields": {
+        "Date": "2015-02-19T22:24:03.349Z",
+        "UserID": 23,
+        "RatingType": 4
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 171
+},
+{
+    "fields": {
+        "Date": "2015-02-19T22:24:18.493Z",
+        "UserID": 23,
+        "RatingType": 4
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 172
+},
+{
+    "fields": {
+        "Date": "2015-02-19T22:24:28.805Z",
+        "UserID": 23,
+        "RatingType": 5
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 173
+},
+{
+    "fields": {
+        "Date": "2015-02-19T23:19:25.642Z",
+        "UserID": 24,
+        "RatingType": 0
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 174
+},
+{
+    "fields": {
+        "Date": "2015-02-19T23:19:41.367Z",
+        "UserID": 24,
+        "RatingType": 2
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 175
+},
+{
+    "fields": {
+        "Date": "2015-02-19T23:19:55.859Z",
+        "UserID": 24,
+        "RatingType": 3
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 176
+},
+{
+    "fields": {
+        "Date": "2015-02-19T23:20:00.828Z",
+        "UserID": 24,
+        "RatingType": 1
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 177
+},
+{
+    "fields": {
+        "Date": "2015-02-19T23:20:06.697Z",
+        "UserID": 24,
+        "RatingType": 2
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 178
+},
+{
+    "fields": {
+        "Date": "2015-02-19T23:20:25.664Z",
+        "UserID": 24,
+        "RatingType": 1
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 179
+},
+{
+    "fields": {
+        "Date": "2015-02-19T23:20:27.930Z",
+        "UserID": 24,
+        "RatingType": 1
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 180
+},
+{
+    "fields": {
+        "Date": "2015-02-19T23:20:29.142Z",
+        "UserID": 24,
+        "RatingType": 1
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 181
+},
+{
+    "fields": {
+        "Date": "2015-02-20T20:51:07.268Z",
+        "UserID": 26,
+        "RatingType": 0
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 183
+},
+{
+    "fields": {
+        "Date": "2015-02-20T20:51:23.393Z",
+        "UserID": 26,
+        "RatingType": 3
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 184
+},
+{
+    "fields": {
+        "Date": "2015-02-20T20:51:30.728Z",
+        "UserID": 26,
+        "RatingType": 5
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 185
+},
+{
+    "fields": {
+        "Date": "2015-02-20T20:51:39.576Z",
+        "UserID": 26,
+        "RatingType": 3
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 186
+},
+{
+    "fields": {
+        "Date": "2015-02-20T20:51:42.295Z",
+        "UserID": 26,
+        "RatingType": 2
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 187
+},
+{
+    "fields": {
+        "Date": "2015-02-20T20:51:58.615Z",
+        "UserID": 26,
+        "RatingType": 3
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 188
+},
+{
+    "fields": {
+        "Date": "2015-02-20T20:52:07.775Z",
+        "UserID": 26,
+        "RatingType": 1
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 189
+},
+{
+    "fields": {
+        "Date": "2015-02-20T23:27:26.887Z",
+        "UserID": 27,
+        "RatingType": 0
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 190
+},
+{
+    "fields": {
+        "Date": "2015-02-20T23:27:36.496Z",
+        "UserID": 27,
+        "RatingType": 3
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 191
+},
+{
+    "fields": {
+        "Date": "2015-02-20T23:27:54.162Z",
+        "UserID": 27,
+        "RatingType": 2
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 192
+},
+{
+    "fields": {
+        "Date": "2015-02-20T23:27:59.223Z",
+        "UserID": 27,
+        "RatingType": 2
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 193
+},
+{
+    "fields": {
+        "Date": "2015-02-20T23:28:01.619Z",
+        "UserID": 27,
+        "RatingType": 1
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 194
+},
+{
+    "fields": {
+        "Date": "2015-02-20T23:28:08.655Z",
+        "UserID": 27,
+        "RatingType": 3
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 195
+},
+{
+    "fields": {
+        "Date": "2015-02-20T23:28:12.576Z",
+        "UserID": 27,
+        "RatingType": 3
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 196
+},
+{
+    "fields": {
+        "Date": "2015-02-20T23:28:24.337Z",
+        "UserID": 27,
+        "RatingType": 3
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 197
+},
+{
+    "fields": {
+        "Date": "2015-02-20T23:28:27.405Z",
+        "UserID": 27,
+        "RatingType": 1
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 198
+},
+{
+    "fields": {
+        "Date": "2015-02-20T23:28:29.726Z",
+        "UserID": 27,
+        "RatingType": 1
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 199
+},
+{
+    "fields": {
+        "Date": "2015-02-20T23:28:30.702Z",
+        "UserID": 27,
+        "RatingType": 1
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 200
+},
+{
+    "fields": {
+        "Date": "2015-02-20T23:28:30.995Z",
+        "UserID": 27,
+        "RatingType": 1
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 201
+},
+{
+    "fields": {
+        "Date": "2015-02-20T23:28:31.479Z",
+        "UserID": 27,
+        "RatingType": 1
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 202
+},
+{
+    "fields": {
+        "Date": "2015-02-20T23:28:32.343Z",
+        "UserID": 27,
+        "RatingType": 1
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 203
+},
+{
+    "fields": {
+        "Date": "2015-02-20T23:28:34.397Z",
+        "UserID": 27,
+        "RatingType": 2
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 204
+},
+{
+    "fields": {
+        "Date": "2015-02-21T02:46:34.564Z",
+        "UserID": 28,
+        "RatingType": 0
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 205
+},
+{
+    "fields": {
+        "Date": "2015-02-21T02:46:49.735Z",
+        "UserID": 28,
+        "RatingType": 4
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 206
+},
+{
+    "fields": {
+        "Date": "2015-02-21T02:47:06.838Z",
+        "UserID": 28,
+        "RatingType": 3
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 207
+},
+{
+    "fields": {
+        "Date": "2015-02-21T02:47:37.102Z",
+        "UserID": 28,
+        "RatingType": 1
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 208
+},
+{
+    "fields": {
+        "Date": "2015-02-21T22:16:01.476Z",
+        "UserID": 29,
+        "RatingType": 0
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 209
+},
+{
+    "fields": {
+        "Date": "2015-02-21T22:16:12.017Z",
+        "UserID": 29,
+        "RatingType": 5
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 210
+},
+{
+    "fields": {
+        "Date": "2015-02-21T22:16:17.111Z",
+        "UserID": 29,
+        "RatingType": 4
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 211
+},
+{
+    "fields": {
+        "Date": "2015-02-21T22:16:31.064Z",
+        "UserID": 29,
+        "RatingType": 4
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 212
+},
+{
+    "fields": {
+        "Date": "2015-02-21T22:16:45.349Z",
+        "UserID": 29,
+        "RatingType": 3
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 213
+},
+{
+    "fields": {
+        "Date": "2015-02-21T22:16:55.771Z",
+        "UserID": 29,
+        "RatingType": 3
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 214
+},
+{
+    "fields": {
+        "Date": "2015-02-21T22:17:02.763Z",
+        "UserID": 29,
+        "RatingType": 2
+    },
+    "model": "MainDataCollect.stepclickrating",
+    "pk": 215
+}
+]
